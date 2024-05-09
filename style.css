@@ -150,6 +150,14 @@ textarea{
         padding-bottom: 1em;
         left: 300px;
     }
+    #duckhero{
+        background-image: url(images/rubberduck.jpg);
+        background-repeat: no-repeat;
+        width: auto;
+        display: block;
+        height: 300px;      /*May have to tweak depending on image*/
+        padding-bottom: 1em; 
+       }
     #flow{
         display: flex;
         flex-wrap: wrap;
