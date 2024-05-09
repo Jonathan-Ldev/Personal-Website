@@ -282,6 +282,21 @@ textarea{
         padding-bottom: 1em;
         left: 300px;
     }
+    #emojihero{
+        background-image: url(images/Emoji.png);
+        background-repeat: no-repeat;
+        width: auto;
+        display: block;
+        height: 300px;      /*May have to tweak depending on image*/
+        padding-bottom: 1em; 
+   }
+   #duckhero{
+    background-image: url(images/rubberduck.jpg);
+    background-repeat: no-repeat;
+    width: auto;
+    display: block;
+    height: 300px;      /*May have to tweak depending on image*/
+    padding-bottom: 1em; 
    }
     #flow{
         display: flex;
@@ -427,3 +442,4 @@ tr:nth-of-type(even){
 
 /* global property or global var */
 * {box-sizing: border-box;}
+}
